@@ -1,0 +1,60 @@
+.formpanel {
+  padding: 24px;
+}
+
+/* Header */
+.header > h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.header .gold {
+  color: gold;
+}
+.header > p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* Company and Prospect  */
+
+.company-section,
+.prospect-section {
+  margin-bottom: 32px;
+}
+.company-section h3,
+.prospect-section h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+.company-card,
+.prospect-card {
+  border: 1px solid var(--color-grey);
+  border-radius: 12px;
+  padding: 16px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.company-group,
+.prospect-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.company-group label,
+.prospect-group label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #374151;
+}
+.company-group select,
+.prospect-group select {
+  padding: 10px 20px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+}

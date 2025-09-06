@@ -1,0 +1,90 @@
+.chatpanel {
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Header */
+.chat-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.star-icon {
+  color: gold;
+  font-size: 20px;
+}
+.chat-header .title {
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 300;
+  margin: 12px 0;
+}
+/* Messages */
+.chat-messages {
+  height: 65%;
+  padding: 8px;
+  overflow-y: auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.chat-message {
+  max-width: 65%;
+  padding: 10px 12px;
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.chat-message.system {
+  align-self: flex-start;
+}
+
+.chat-message.user {
+  background: hsl(0, 0%, 95%);
+  color: black;
+  align-self: flex-end;
+}
+.message-actions {
+  margin-top: 5px;
+}
+.message-actions .icon {
+  font-size: 15px;
+}
+
+/* Input box */
+.chat-input {
+  display: flex;
+  align-items: center;
+
+  padding: 8px 10px;
+  gap: 10px;
+  border: 1px solid var(--color-grey);
+  border-radius: 10px;
+
+  flex: 0 0 auto;
+  margin-top: 10px;
+}
+
+.chat-input input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  padding: 8px;
+}
+
+.chat-input .icon {
+  font-size: 16px;
+  color: #555;
+  cursor: pointer;
+}
+.chat-input .microphone {
+  color: gold;
+}
