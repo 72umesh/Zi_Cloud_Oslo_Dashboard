@@ -7,17 +7,17 @@ It replicates the provided design, including sidebar navigation, step navbar, ch
 
 ⚡ Features
 
-📂 Component-based structure (Sidebar, Navbar, ChatPanel, FormPanel)
-🎨 Responsive layout using CSS Flexbox/Grid
-💬 Chat panel with system and user messages
-📝 Form panel with dropdown fields (Company & Prospect Profile)
-🎯 UI matches the provided assignment screenshot
+- 📂 Component-based structure (Sidebar, Navbar, ChatPanel, FormPanel)
+- 🎨 Responsive layout using CSS Flexbox/Grid
+- 💬 Chat panel with system and user messages
+- 📝 Form panel with dropdown fields (Company & Prospect Profile)
+- 🎯 UI matches the provided assignment screenshot
 
 🛠️ Tech Stack
 
-React (Vite)
-React Icons
-CSS / Flexbox / Grid
+- React (Vite)
+- React Icons
+- CSS / Flexbox / Grid
 
 ✨ Author
 Umesh Pal
