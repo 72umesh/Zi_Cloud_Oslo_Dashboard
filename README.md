@@ -1,6 +1,6 @@
 # Zi Cloud Frontend Assignment
 
-![App Screenshot](.assets/Zi_Result.png)
+![App Screenshot](./src/assets/Zi_Result.png)
 
 This project is a React-based implementation of the given UI assignment.
 It replicates the provided design, including sidebar navigation, step navbar, chat panel, and form panel.
